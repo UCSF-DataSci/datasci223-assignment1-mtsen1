@@ -51,5 +51,7 @@ def main():
     hash_value = hash_email(email)
     write_hash_to_file(hash_value)
 
+    print(hash_value)
+
 if __name__ == "__main__":
     main()
